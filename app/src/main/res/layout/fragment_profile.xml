@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context=".ui.profile.ProfileFragment">
+
+    <Button
+        android:id="@+id/btn_card_1"
+        android:text="Лицевая сторона документа"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_card_2"
+        android:text="Задняя сторона документа"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_face"
+        android:text="Фото лица"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:hint="name"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/et_surname"
+        android:layout_width="match_parent"
+        android:hint="surname"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/et_date_of_birth"
+        android:layout_width="match_parent"
+        android:hint="date_of_birth"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/btn_send"
+        android:text="Отправить"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
